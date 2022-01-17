@@ -1,0 +1,47 @@
+/* Tablet Responsive */
+@media only screen and (max-width: 1024px) {
+  .advert-store {
+    margin-right: 40px;
+  }
+}
+
+/* Phone Responsive */
+@media only screen and (max-width: 720px) {
+  .advert {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .advert-hero-container {
+    margin: 0 20px;
+  }
+  .advert-inner-container {
+    min-width: 335px;
+    border-radius: 50px;
+  }
+
+  .phone-advert {
+    flex-direction: column;
+  }
+
+  .phone-advert > img {
+    display: none;
+  }
+  .phone-advert-content {
+    padding: 60px;
+  }
+  .phone-advert-content h3 {
+    font-size: 35px;
+  }
+  .advert.store {
+    display: flex;
+    flex-direction: column;
+  }
+  .advert.store img {
+    max-width: 200px;
+    padding-bottom: 15px;
+  }
+  .store img:last-child {
+    margin-left: 8px;
+  }
+}

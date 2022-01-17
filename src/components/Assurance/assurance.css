@@ -1,0 +1,59 @@
+.assurance-hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.assurance-heading {
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #007640;
+  margin-top: 130px;
+  max-width: 371px;
+}
+
+.assurance-inner-container {
+  align-items: flex-start;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-container {
+  padding-top: 65px;
+}
+
+.features-content-wrapper {
+  display: flex;
+}
+
+.features-content-wrapper .bullet-wrapper {
+  width: 22px;
+  margin-right: 35px;
+  position: relative;
+  overflow: hidden;
+  transform: translateY(10px);
+}
+
+.features-content h3 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 116.6%;
+  letter-spacing: -0.03em;
+  color: #121212;
+  margin-bottom: 16px;
+}
+.features-content p {
+  font-size: 20px;
+  line-height: 150%;
+  color: rgba(18, 18, 18, 0.6);
+  max-width: 379px;
+  padding-bottom: 80px;
+}
+
+.profile-phone img {
+  width: 510px;
+  transform: translateY(-30px);
+  margin-right: 60px;
+}

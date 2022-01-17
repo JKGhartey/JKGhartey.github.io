@@ -1,0 +1,70 @@
+/* Tablet Responsive */
+@media only screen and (max-width: 1024px) {
+  .help-container {
+    margin-left: 40px;
+  }
+
+  .help-container .aboutlogo2 {
+    width: 100px;
+    margin-top: 30px;
+    left: 30px;
+  }
+
+  .help-container h2 {
+    max-width: 275px;
+    font-size: 40px;
+  }
+
+  .help-container p {
+    font-size: 18px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .about-logo{
+    transform: translateY(-140px);
+    width: 430px;
+  }
+}
+
+/* Phone Responsive */
+@media only screen and (max-width: 720px) {
+  .inner-container {
+    flex-direction: column;
+    padding: 65px 0;
+  }
+
+  .help-container {
+    margin-left: 40px;
+  }
+
+  .aboutlogo2 {
+    display: none;
+  }
+
+  .help-container h2 {
+    font-size: 34px;
+    max-width: 311px;
+    margin-right: 0;
+  }
+
+  .help-container p {
+    max-width: 311px;
+    font-size: 16px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .about-logo {
+    position: relative;
+  }
+
+  .about-logo img {
+    width: 169px;
+    position: absolute;
+    right: -116px;
+    -webkit-transform: translateY(-365px);
+    -moz-transform: translateY(-365px);
+    transform: translateY(-365px);
+  }
+}

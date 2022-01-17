@@ -1,0 +1,60 @@
+.helpSection {
+  background: #fafafa;
+  background-image: url(../../images/bg-img.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  /* height: 100%; */
+  overflow: hidden;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-container .inner-container {
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -moz-box-align: center;
+  align-items: center;
+}
+
+.help-container .aboutlogo2 {
+  width: 169px;
+  position: absolute;
+  left: 53px;
+  -webkit-transform: translateY(-103px);
+  -moz-transform: translateY(-103px);
+  transform: translateY(-103px);
+}
+
+.help-container h2 {
+  position: relative;
+  z-index: 2;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 101.1%;
+  letter-spacing: -0.03em;
+  color: #007640;
+  margin-right: 167px;
+  max-width: 560px;
+}
+
+.help-container p {
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  max-width: 683px;
+  margin-top: 20px;
+}
+
+.about-logo img {
+  width: 589px;
+  margin-right: -135px;
+  -webkit-transform: translateY(-174px);
+  -moz-transform: translateY(-174px);
+  transform: translateY(-174px);
+}

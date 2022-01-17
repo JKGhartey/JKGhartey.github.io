@@ -1,0 +1,33 @@
+/* Tablet Responsive */
+@media only screen and (max-width: 1024px) {
+  .footer-container {
+    padding: 0 40px;
+  }
+}
+
+/* Phone Responsive */
+@media only screen and (max-width: 720px) {
+  .footer-inner-container {
+    flex-direction: column;
+  }
+  .submit-form {
+    display: none;
+  }
+  .footer-links {
+    flex-direction: column;
+    margin: auto;
+  }
+  .footer-logo {
+    text-align: center;
+  }
+  .footer-links ul {
+    margin: 10px 0;
+  }
+  .social-icon-wrapper {
+    width: 70%;
+    margin: auto;
+  }
+  .social-icon-wrapper svg {
+    margin-right: 0;
+  }
+}

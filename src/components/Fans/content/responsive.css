@@ -1,0 +1,70 @@
+/* Tablet Responsive */
+@media only screen and (max-width: 1024px) {
+  .fans-content {
+    flex: unset;
+  }
+  .fans-container-content {
+    padding: 70px;
+  }
+  .section-icon-wrapper {
+    max-width: 481px;
+    margin: 30px;
+  }
+
+  .fans-container-content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .fans-container-content p {
+    font-size: 18px;
+    margin: 0 auto;
+  }
+  .chat-box-container {
+    font-size: 18px;
+    max-width: 481px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+
+  .chat1 .date {
+    margin-left: 170px;
+  }
+}
+
+/* Phone Responsive */
+@media only screen and (max-width: 720px) {
+  .fans--container {
+    flex: unset;
+  }
+  .fans--container .inner-container {
+    flex-direction: column;
+  }
+  .fans-content-wrapper,
+  .chat-box {
+    width: unset;
+  }
+  .fans-container-content {
+    padding: 65px 0;
+    margin: 6px 32px 0;
+  }
+  .section-icon-wrapper {
+    display: flex !important;
+  }
+  .fans-container-content h2 {
+    font-size: 34px;
+    margin-bottom: 11px;
+    width: 311px;
+  }
+  .chat-box-container {
+    padding: unset;
+  }
+  .chats.active {
+    padding: 0 30px;
+  }
+  .chat1 {
+    margin-left: 0;
+  }
+  .chat1 .date {
+    margin-left: 250px;
+  }
+}

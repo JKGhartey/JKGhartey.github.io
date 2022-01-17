@@ -1,0 +1,56 @@
+/* Tablet Responsive */
+@media only screen and (max-width: 1024px) {
+    .p-background{
+      min-height: 530px;
+      width: 425px;
+    }
+    .incoming-call{
+      padding: 62px 20px 75px;
+    }
+    .caller p{
+      font-size: 18px;
+    }
+    .call-status > * {
+      padding: 12px 45px;
+    }
+    .influencer-space.filter{
+      padding: 100px 50px;
+    }
+    .section-icon-container.influencer img{
+      right: 70px;
+    }
+    .influencer-space.filter .influencer-space-wrapper h2{
+      font-size: 40px;
+    }
+    .influencer-space.filter .influencer-space-wrapper p{
+      font-size: 18px;
+    }
+  }
+  
+  /* Phone Responsive */
+  @media only screen and (max-width: 720px) {
+    .filter-inner-container{
+      flex-direction: column;
+    }
+    .p-background{
+      width: 320px;
+      margin-left: 20px;
+    }
+    .caller p{
+      font-size: 16px;
+    }
+    .call-status > * {
+      padding:8px 30px
+    }
+    .call-status p{
+      font-size: 16px;
+    }
+    .influencer-space.filter{
+      width: unset;
+      padding: 50px 30px;
+    }
+    .influencer-space-wrapper h2{
+      font-size: 30px !important;
+    }
+  }
+  

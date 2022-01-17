@@ -1,0 +1,47 @@
+/* Tablet Responsive */
+@media only screen and (max-width: 1024px) {
+  .assurance-heading {
+    font-size: 40px;
+    margin-left: 40px;
+  }
+  .features-content-wrapper{
+    margin: 0 70px;
+  }
+  .bullet-wrapper{
+    width: 40px !important;
+    transform: translateX(-10px);
+  }
+  .features-content{
+    transform: translateY(10px);
+  }
+  .features-content h3 {
+    font-size: 26px;
+  }
+  .features-content p{
+    padding-bottom: 60px;
+  }
+  .profile-phone img {
+    margin-right: 60px;
+  }
+}
+
+/* Phone Responsive */
+@media only screen and (max-width: 720px) {
+  .assurance-inner-container {
+    flex-direction: column;
+  }
+  .profile-phone img {
+    height: 100%;
+    width: 90%;
+  }
+  .bullet-wrapper{
+    width: 50px !important;
+  }
+  .features-content h3 {
+    font-size: 24px;
+  }
+  .features-content p{
+    padding-bottom: 50px;
+    font-size: 18px;
+  }
+}

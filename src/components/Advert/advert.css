@@ -1,0 +1,61 @@
+.advert-hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 131px;
+}
+
+.advert-inner-container {
+  background: #029f58;
+  background-image: url(../../images/bg-img.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  height: 100%;
+  border-radius: 110px;
+  overflow: hidden;
+  margin-top: -198px;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.phone-advert {
+  display: flex;
+  width: fit-content;
+  /* margin-left: 65px; */
+}
+
+.phone-advert img {
+  padding-top: 44.38px;
+  width: 340px;
+  height: 100%;
+  object-fit: contain;
+  object-position: top;
+}
+
+.phone-advert-content {
+  padding-left: 60px;
+  margin: auto;
+}
+.phone-advert-content h3 {
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 103%;
+  max-width: 490px;
+  color: #fff;
+  margin-bottom: 30px;
+  /* margin-top: 135px; */
+}
+.phone-advert-content p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: hsla(0, 0%, 100%, 0.9);
+  margin-bottom: 44.38px;
+}
+
+.phone-advert-content img{
+  margin-top: -40px !important;
+}

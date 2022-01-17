@@ -1,0 +1,37 @@
+/* Tablet Responsive */
+@media only screen and (max-width: 1024px) {
+  .space-wrapper {
+    max-width: 481px;
+    margin: 0 auto;
+    padding: 45px 0;
+  }
+  .space-wrapper h2{
+    padding-right: 13px;
+    font-size: 60px;
+  }
+  .space-wrapper p{
+    padding-right: 40px;
+  }
+}
+
+/* Phone Responsive */
+@media only screen and (max-width: 720px) {
+ 
+  .influencer-hero-container{
+    flex-direction: column-reverse;
+    max-height: fit-content;
+  }
+  .space-wrapper{
+    margin-top: 60px;
+    padding-left: 40px;
+  }
+  .space-wrapper h2{
+    font-size: 40px;
+    line-height: 120%;
+  }
+  .phone-content img{
+    top: 0;
+    right: 55px;
+    width: 350px;
+  }
+}

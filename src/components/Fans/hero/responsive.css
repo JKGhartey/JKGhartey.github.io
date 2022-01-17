@@ -1,0 +1,85 @@
+/* Tablet Responsive */
+@media only screen and (max-width: 1024px) {
+  .FansHero {
+    margin-left: 20px;
+    padding-top: 90px;
+  }
+  .fans-container {
+    margin: 0 60px;
+  }
+  .fans-inner-container {
+    min-height: unset;
+  }
+  .section-icon-wrapper {
+    max-width: 481px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .space h2 {
+    font-size: 40px;
+    max-width: 481px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .space p {
+    font-size: 18px;
+    line-height: 150%;
+    padding-bottom: 50px;
+    max-width: 481px;
+    margin: 0 auto;
+  }
+
+  .fans-img-wrapper {
+    min-height: 488px;
+    margin-left: 60px;
+  }
+  .fan-img {
+    width: 300px;
+  }
+}
+
+/* Phone Responsive */
+@media only screen and (max-width: 720px) {
+  .FansHero {
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0;
+  }
+  .fans-container {
+    flex: unset;
+    padding: 70px 0;
+  }
+  .fans-inner-container {
+    margin: unset;
+    min-height: unset;
+    flex-direction: column-reverse;
+  }
+
+  .section-icon-wrapper {
+    display: none;
+  }
+  .space {
+    margin-top: -120px;
+  }
+  .space h2 {
+    width: 311px;
+    font-size: 30px;
+    margin-bottom: 24px;
+  }
+  .space p {
+    font-size: 16px;
+    max-width: 311px;
+    margin-bottom: 0;
+  }
+  .fans-img-wrapper {
+    min-height: 438px;
+    padding-right: 0;
+    margin: 0;
+  }
+  .fan-img {
+    width: 224px;
+    height: 260px;
+    display: block;
+    margin: 0 auto -64px;
+  }
+}
